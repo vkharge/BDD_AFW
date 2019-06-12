@@ -1,0 +1,18 @@
+1560302292627	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/00/5__4qv0j2s94hzg1bwf6_q_00000gr/T/rust_mozprofile.LSjCogWADJ3H"
+JavaScript error: CA_vmware.cfg, line 7: ReferenceError: Components is not defined
+1560302293153	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560302293153	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560302293153	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560302294512	Marionette	INFO	Listening on port 60790
+1560302294606	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.securepay.com.au/support/contact-us/, line 44: ReferenceError: _satellite is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1560302318858	Marionette	INFO	Stopped listening on port 60790
+JavaScript error: https://assets.adobedtm.com/bfecad1ae7e5d7a2b8a9353b2d496d9b392db768/s-code-contents-e1d6862a40bbf4542f9605845a473ca1b3a9ab5f.js, line 629: NS_ERROR_NOT_INITIALIZED: 

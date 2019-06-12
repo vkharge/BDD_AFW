@@ -1,0 +1,9 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SecurePay Test Suite" verbose="1"  thread-count="1" configfailurepolicy="continue">
+    <test name="ContactUs" annotations="JDK" preserve-order="true">
+     <classes>
+        <class name="com.securepay.runner.Runner"/>
+    </classes>
+    </test>
+</suite>
